@@ -1,0 +1,283 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 320px;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.header {
+    background-color: rgb(178, 21, 71);
+}
+
+.header__top__nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.nav__list {
+    display: flex;
+    gap: 1.5em;
+    padding: 10px 0;
+
+}
+
+.nav__top-text {
+    font-size: 14px;
+}
+
+.header__wrapper {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.log-nav-list {
+    display: flex;
+    gap: 1.7em;
+}
+
+.header__wrapper-main {
+    margin-bottom: 15px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+
+.aside__button {
+    border: 1px solid rgb(96, 3, 3);
+    background-color: rgb(178, 21, 71);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+
+    cursor: pointer;
+}
+
+.search__input {
+    border: 1px solid rgb(96, 3, 3);
+    padding: 3px 10px;
+
+}
+
+
+.store__wrapper {
+    display: flex;
+    min-height: 450px;
+    padding: 10px 10px;
+}
+
+.product__list {
+    display: flex;
+    gap: 1.5em;
+    max-width: 500%;
+    min-height: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.prod__list {
+    display: flex;
+    gap: 1.5em;
+    max-width: 500%;
+    min-height: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.product__name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product__span-price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.prod__image {
+    margin-right: 15px;
+    object-fit: contain;
+    min-width: 185px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+
+.product__tags {
+    margin-right: 10px;
+    max-width: 320px;
+
+}
+
+
+.promo__aside {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    align-items: flex-start;
+    position:absolute;
+}
+
+.aside__form {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+}
+
+.aside__button {
+    max-width: 150px;
+}
+
+.aside__checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.form__label {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.form__genres {
+    margin-right: 10px;
+}
+
+.form__checkbox__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.categories__label {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.categories__list {
+    margin-bottom: 10px;
+}
+
+
+.prod__nav {
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+
+}
+
+.prod__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 450px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    max-width: 1200px;
+ 
+}
+
+.prod__gallery {
+    width: 60%;
+    padding: 10px 0;
+    object-fit: cover;
+}
+
+.price__block {
+  font-weight: 600;
+}
+
+.price__link {
+    background-color: rgb(178, 21, 71);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 2px;
+ 
+}
+
+.price__span {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.cart__block {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.prod__block {
+    padding-bottom: 5px;
+    color:rgb(178, 21, 71);
+}
+
+.prod__span {
+    color: black;
+}
+
+.p__descr {
+    font-weight: 400;
+}
+
+.prod__list {
+    display: flex;
+    gap: 1.5em;
+    max-width: 1200px;
+    min-height: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+}
+
+.prod__wrapper {
+    display: flex;
+    min-height: 500px;
+    padding: 10px 10px;
+}
+
+.price__delete {
+    padding: 0 5px;
+}
