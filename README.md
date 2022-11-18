@@ -1,0 +1,1 @@
+# sladosty-store
